@@ -5,7 +5,7 @@ require "./budget_item"
 class Budget
 	attr_reader :name, :budget_items
 
-	#name budget adn creat empty array for budget items when new budget is created
+	#name budget and create empty array for budget items when new budget is created
 	def initialize(name)
 		@name = name
 		@budget_items = []
