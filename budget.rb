@@ -7,13 +7,13 @@ class Budget
 
 	#name budget and create empty array for budget items when new budget is created
 	def initialize(name)
-		@name = name
-		@budget_items = []
+	 @name = name
+	 @budget_items = []
 	end
 
 	#add new budget items to array by name
 	def add_item(name)
-		budget_items.push(BudgetItem.new(name))
+	 budget_items.push(BudgetItem.new(name))
 	end
 end
 
