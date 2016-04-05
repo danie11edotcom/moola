@@ -30,3 +30,9 @@ Budget functionality
 -display intergers with 2 decimals as money
 
 =end
+
+my_budget = Budget.new("Florida Vacay")
+budget_item = BudgetItem.new("airfare")
+
+puts my_budget.inspect
+puts budget_item.inspect
