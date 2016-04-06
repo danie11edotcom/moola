@@ -21,12 +21,13 @@ end
 
 Budget functionality
 -create & name
+-consider using hashes for estimate and actual amount storage and accesibility
 -add items by name
 -remove items
 -update item estimate and actual amounts
 -print budget
 -save budget to a cv file on disk
--currency and curreny conversion
+-currency and currency conversion
 -display intergers with 2 decimals as money
 
 =end
@@ -36,3 +37,6 @@ budget_item = BudgetItem.new("airfare")
 
 puts my_budget.inspect
 puts budget_item.inspect
+
+
+
