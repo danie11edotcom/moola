@@ -33,10 +33,17 @@ Budget functionality
 =end
 
 my_budget = Budget.new("Florida Vacay")
+food = my_budget.add_item("food")
+puts my_budget.inspect
+
+=begin
 budget_item = BudgetItem.new("airfare")
 
 puts my_budget.inspect
 puts budget_item.inspect
+puts budget_item.estimate(500)
+puts budget_item.actual(450)
+puts budget_item.inspect
 
-
+=end
 
